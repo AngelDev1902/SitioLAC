@@ -53,3 +53,15 @@ footer ul li a:hover {
     color: #ffc107;
 }
 
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .logoFooter, .menuFooter, .serviciosFooter, .otros {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
+

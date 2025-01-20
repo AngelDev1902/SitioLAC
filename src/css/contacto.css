@@ -107,3 +107,22 @@ body {
     background-color: #ffc107;
     color: #343a40;
 }
+
+@media (max-width: 768px) {
+    .infoContacto {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .infoContacto img, .infoContacto p {
+        width: 100%;
+    }
+
+    .formularioContacto {
+        padding: 2rem 1rem;
+    }
+
+    .formularioContacto form {
+        width: 100%;
+    }
+}

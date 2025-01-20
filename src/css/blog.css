@@ -124,3 +124,22 @@
     background-color: rgb(255, 175, 15);
     color: rgb(18, 18, 18);
 }
+
+@media (max-width: 768px) {
+    .infoCaratula h1 {
+        font-size: 2rem;
+    }
+
+    .infoCaratula p {
+        font-size: 1rem;
+    }
+
+    .articulos {
+        padding: 2rem 1rem;
+    }
+
+    .contenidoArticulos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

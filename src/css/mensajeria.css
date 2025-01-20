@@ -92,3 +92,28 @@
 .infoSeccion ul li span {
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .presentacion {
+        width: 90%;
+        top: 30rem;
+    }
+
+    .contenedorServicios {
+        margin-top: 20rem;
+        padding: 2rem 1rem;
+    }
+
+    .servicioSeccion {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .servicioSeccion img, .infoSeccion {
+        width: 100%;
+    }
+
+    .servicioSeccion img {
+        max-width: 100%;
+    }
+}

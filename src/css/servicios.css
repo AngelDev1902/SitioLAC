@@ -83,3 +83,22 @@
     background-color: #ffc107;
     color: #343a40;
 }
+
+@media (max-width: 768px) {
+    .contenedorServicios {
+        padding: 2rem 1rem;
+    }
+
+    .servicioSeccion {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .servicioSeccion img, .infoSeccion {
+        width: 100%;
+    }
+
+    .servicioSeccion img {
+        max-width: 100%;
+    }
+}

@@ -629,3 +629,153 @@ body{
     color: sandybrown;
     font-style: italic;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .fondo {
+        display: none;
+    }
+
+    .bienvenida {
+        width: 100%;
+    }
+
+    .efecto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carrucel {
+        height: 100%;
+        width: 100%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        width: 90%;
+    }
+
+    .servicios {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        margin-top: 10rem;
+    }
+
+    .imgservicio, .infoServicios {
+        width: 100%;
+    }
+
+    .imgservicio img {
+        box-shadow: none;
+    }
+
+    .tituloServicios h2 {
+        font-size: 3rem;
+    }
+
+    .descripcion {
+        height: auto;
+    }
+
+    .descripcionContent {
+        flex-direction: column;
+    }
+
+    .imgDescripcion, .infoDescripcion {
+        width: 100%;
+    }
+
+    .porqueElegirnos {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .imgPorqueElegirnos, .infoPorqueElegirnos {
+        width: 100%;
+    }
+
+    .tituloPorqueElegirnos h2 {
+        font-size: 3rem;
+    }
+
+    .opiniones {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .opninionesContainer {
+        flex-direction: column;
+        gap: 5rem;
+        height: auto;
+    }
+
+    .opinion {
+        width: 100%;
+        height: auto;
+    }
+
+    .confian {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .carrucelImg {
+        flex: 0 0 80%;
+        margin: 1rem 0;
+    }
+
+    .cedis {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .contenidoCedis {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .articulos {
+        height: auto;
+        padding: 2rem 0;
+        
+    }
+
+    .articulo {
+        width: 100%;
+    }
+
+    .contenidoArticulos {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .contacto {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .contenidoContacto {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .infoContacto, .formularioContacto {
+        width: 100%;
+    }
+}
