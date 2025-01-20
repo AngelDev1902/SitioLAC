@@ -1,0 +1,126 @@
+/* Main Styles */
+.caratula {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.caratula img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infoCaratula {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.infoCaratula h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    max-width: 70%;
+}
+
+.caratula p {
+    font-size: 20px;
+    padding: 10px 20px;
+    max-width: 70%;
+}
+
+.articulos {
+    width: 100%;
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.tituloArticulos {
+    width: 100%;
+    text-align: center;
+}
+
+.tituloArticulos h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    color: rgb(50, 50, 50);
+}
+
+.contenidoArticulos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.articulo {
+    width: 25rem;
+    background-color: #fff;
+    border: 5px solid rgb(225, 155, 63);
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imgArticulo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgArticulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.infoArticulo {
+    text-align: center;
+}
+
+.infoArticulo h3 {
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+}
+
+.infoArticulo p {
+    font-size: 1.1rem;
+    color: rgb(50, 50, 50);
+}
+
+.botonArticulo {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: rgb(225, 155, 63);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonArticulo:hover {
+    background-color: rgb(255, 175, 15);
+    color: rgb(18, 18, 18);
+}

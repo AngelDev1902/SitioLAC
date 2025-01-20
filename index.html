@@ -31,14 +31,14 @@
 
         <nav class="nav">
             <div class="logo">
-                <img src="/src/img/logoCompleto.svg" alt="Logo LAC México">
+                <a href="index.html"><img src="/src/img/logoCompleto.svg" alt="Logo LAC México"></a>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
@@ -289,60 +289,77 @@
                 </div>
                 <div class="formularioContacto">
                     <form class="row g-3">
+                        <!-- Campo de correo -->
                         <div class="col-md-6">
-                          <label for="inputEmail4" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="inputEmail4">
+                            <label for="inputEmail" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
                         </div>
+                
+                        <!-- Campo de nombre -->
                         <div class="col-md-6">
-                          <label for="inputPassword4" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="inputPassword4">
+                            <label for="inputName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Nombre completo">
                         </div>
-                        <div class="col-12">
-                          <label for="inputAddress" class="form-label">Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        </div>
-                        <div class="col-12">
-                          <label for="inputAddress2" class="form-label">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                        </div>
+                
+                        <!-- Campo de teléfono -->
                         <div class="col-md-6">
-                          <label for="inputCity" class="form-label">City</label>
-                          <input type="text" class="form-control" id="inputCity">
+                            <label for="inputPhone" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="(555) 555-5555">
                         </div>
-                        <div class="col-md-4">
-                          <label for="inputState" class="form-label">State</label>
-                          <select id="inputState" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                          </select>
+                
+                        <!-- Campo de empresa -->
+                        <div class="col-md-6">
+                            <label for="inputCompany" class="form-label">Empresa</label>
+                            <input type="text" class="form-control" id="inputCompany" placeholder="Nombre de la empresa">
                         </div>
-                        <div class="col-md-2">
-                          <label for="inputZip" class="form-label">Zip</label>
-                          <input type="text" class="form-control" id="inputZip">
-                        </div>
+                
+                        <!-- Campo de URL del sitio web -->
                         <div class="col-12">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                              Check me out
-                            </label>
-                          </div>
+                            <label for="inputWebsite" class="form-label">URL del Sitio Web</label>
+                            <input type="url" class="form-control" id="inputWebsite" placeholder="https://www.tusitio.com">
                         </div>
+                
+                        <!-- Campo de servicios de interés -->
+                        <div class="col-md-12">
+                            <label for="inputServices" class="form-label">Servicios de Interés</label>
+                            <select id="inputServices" class="form-select">
+                                <option selected>Seleccione un servicio...</option>
+                                <option value="mensajeria">Mensajería</option>
+                                <option value="paqueteria">Paquetería</option>
+                                <option value="almacenaje">Almacenaje</option>
+                                <option value="distribucion">Distribución</option>
+                                <option value="control_inventario">Control de Inventario</option>
+                                <option value="exportaciones">Exportaciones</option>
+                                <option value="importaciones">Importaciones</option>
+                                <option value="iplant">iPlant</option>
+                                <option value="envios_baratos">Envíos Baratos</option>
+                                <option value="envios_internacionales">Envíos Internacionales</option>
+                            </select>
+                        </div>
+                
+                        <!-- Campo de mensaje -->
                         <div class="col-12">
-                          <button type="submit" class="btn btn-primary">Sign in</button>
+                            <label for="inputMessage" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="inputMessage" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
                         </div>
-                      </form>
-                </div>
+                
+                        <!-- Botón de enviar -->
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>                
             </div>
         </div>
     </main>
 
     <footer>
         <div class="logoFooter">
-            <img src="img/logo.png" alt="Logo LAC México">
+            <img src="src/img/logoBlanco.svg" alt="Logo LAC México">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis placeat officia facilis doloremque amet fugit velit repellat iste consectetur ut voluptates odio, sunt quisquam laboriosam eligendi laborum veniam possimus?</p>
         </div>
         <div class="menuFooter">
+            <h3>Mapa del sitio</h3>
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Nosotros</a></li>

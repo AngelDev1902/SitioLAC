@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styles */
+.articuloDetalle {
+    width: 80%;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articuloDetalle h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+.articuloDetalle p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+.articuloDetalle img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
