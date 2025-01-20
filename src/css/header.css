@@ -59,6 +59,7 @@ a {
 
 nav .logo img {
     height: 100%;
+    max-height: 5rem;
 }
 
 .menu {
