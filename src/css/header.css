@@ -177,5 +177,18 @@ nav .logo img {
         font-size: 2rem;
         color: rgb(50, 50, 50);
     }
+
+    h2 {
+        font-size: 1.8rem !important;
+    }
+
+    h3 {
+        font-size: 1.8rem !important;
+    }
+
+    h1 {
+        font-size: 1.8rem     !important;
+    }
+
 }
 
