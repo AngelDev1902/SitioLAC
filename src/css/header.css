@@ -125,9 +125,11 @@ nav .logo img {
     }
 
     .contactoHeader {
+        justify-content: center;
         flex-direction: column;
         padding: 1rem;
         height: 10vh;
+        gap: 0;
     }
 
     .nav {
