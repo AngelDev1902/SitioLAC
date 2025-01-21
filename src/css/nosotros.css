@@ -99,7 +99,7 @@
     position: absolute;
     top: -1rem;
     left: -3rem;
-    background-color: #ffc107;
+    background-color: #cd883b;
 }
 
 .cardOpinionNosotros::after {
@@ -109,7 +109,7 @@
     position: absolute;
     bottom: -1rem;
     right:  -3rem;
-    background-color: #ffc107;
+    background-color: #cd883b;
 }
 
 @media (max-width: 768px) {

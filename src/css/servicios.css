@@ -50,7 +50,7 @@
     width: 50%;
     object-fit: cover;
     max-width: 500px;
-    box-shadow: #ffc107 1.5rem 1rem 0 0;
+    box-shadow: #cd883b 1.5rem 1rem 0 0;
 }
 
 .infoSeccion {
@@ -71,7 +71,7 @@
 .servicioSeccion .boton {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #0184d4;
+    background-color: #cd883b;
     color: white;
     border: none;
     border-radius: 5px;
