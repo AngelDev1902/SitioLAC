@@ -63,12 +63,12 @@ body{
 }
 
 .carousel-caption h5 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 200;
 }
 
 .carousel-caption p {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .efecto{
@@ -701,7 +701,7 @@ body{
     .porqueElegirnos {
         flex-direction: column;
         padding: 2rem 1rem;
-        margin-top: 7rem;
+        margin-top: 30rem;
     }
 
     .imgPorqueElegirnos, .infoPorqueElegirnos {
