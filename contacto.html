@@ -61,7 +61,7 @@ Ya sea que necesite asistencia para realizar un pedido, rastrear un envío o con
             </div>
 
             <div class="formularioContacto">
-                <form class="row g-3">
+                <form class="row g-3" id="contactForm">
                     <!-- Campo de correo -->
                     <div class="col-md-6">
                         <label for="inputEmail" class="form-label">Correo Electrónico</label>
@@ -156,5 +156,22 @@ Ya sea que necesite asistencia para realizar un pedido, rastrear un envío o con
     </footer>
 
     <script src="/src/js/script.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('inputName').value;
+            const email = document.getElementById('inputEmail').value;
+            const phone = document.getElementById('inputPhone').value;
+            const company = document.getElementById('inputCompany').value;
+            const website = document.getElementById('inputWebsite').value;
+            const services = document.getElementById('inputServices').value;
+            const message = document.getElementById('inputMessage').value;
+
+            const whatsappMessage = `Hola, mi nombre es ${name}. Mi correo es ${email}. Mi teléfono es ${phone}. Trabajo en ${company}. Mi sitio web es ${website}. Estoy interesado en ${services}. ${message}`;
+            const whatsappUrl = `https://wa.me/5215534888931?text=${encodeURIComponent(whatsappMessage)}`;
+
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
 </body>
 </html>
