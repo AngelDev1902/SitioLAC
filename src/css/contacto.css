@@ -58,7 +58,7 @@ body {
     padding: 5rem ;
     text-align: justify;
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
     justify-content: space-around;
     align-items: center;
 }
@@ -108,7 +108,19 @@ body {
     color: #343a40;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1200px) {
+
+    .infoContacto img, .infoContacto p {
+        width: 100%;
+    }
+
+    .infoContacto img {
+        box-shadow: #cd883b 1.5rem 1rem 0 0;
+    }
+}
+
+@media (max-width: 900px) {
     .infoContacto {
         flex-direction: column;
         padding: 2rem 1rem;

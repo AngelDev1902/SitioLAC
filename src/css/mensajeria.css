@@ -93,7 +93,7 @@
     font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .presentacion {
         width: 90%;
         top: 30rem;
@@ -110,7 +110,9 @@
     }
 
     .servicioSeccion img, .infoSeccion {
-        width: 100%;
+        width: 80%;
+        height: 300px;
+        object-fit: cover;
     }
 
     .servicioSeccion img {
