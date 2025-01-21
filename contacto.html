@@ -166,12 +166,13 @@ Ya sea que necesite asistencia para realizar un pedido, rastrear un envío o con
             const website = document.getElementById('inputWebsite').value;
             const services = document.getElementById('inputServices').value;
             const message = document.getElementById('inputMessage').value;
-
+    
             const whatsappMessage = `Hola, mi nombre es ${name}. Mi correo es ${email}. Mi teléfono es ${phone}. Trabajo en ${company}. Mi sitio web es ${website}. Estoy interesado en ${services}. ${message}`;
-            const whatsappUrl = `https://wa.me/5215534888931?text=${encodeURIComponent(whatsappMessage)}`;
-
+            const whatsappUrl = `https://web.whatsapp.com/send?phone=5215534888931&text=${encodeURIComponent(whatsappMessage)}`;
+    
             window.open(whatsappUrl, '_blank');
         });
     </script>
+    
 </body>
 </html>

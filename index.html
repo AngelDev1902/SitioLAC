@@ -264,41 +264,41 @@
                     </div>
                 </div>
                 <div class="formularioContacto">
-                    <form class="row g-3">
+                    <form class="row g-3" id="contactFormIndex">
                         <!-- Campo de correo -->
                         <div class="col-md-6">
-                            <label for="inputEmail" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
+                            <label for="inputEmailIndex" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="inputEmailIndex" placeholder="example@email.com">
                         </div>
                 
                         <!-- Campo de nombre -->
                         <div class="col-md-6">
-                            <label for="inputName" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Nombre completo">
+                            <label for="inputNameIndex" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="inputNameIndex" placeholder="Nombre completo">
                         </div>
                 
                         <!-- Campo de teléfono -->
                         <div class="col-md-6">
-                            <label for="inputPhone" class="form-label">Teléfono</label>
-                            <input type="tel" class="form-control" id="inputPhone" placeholder="(555) 555-5555">
+                            <label for="inputPhoneIndex" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="inputPhoneIndex" placeholder="(555) 555-5555">
                         </div>
                 
                         <!-- Campo de empresa -->
                         <div class="col-md-6">
-                            <label for="inputCompany" class="form-label">Empresa</label>
-                            <input type="text" class="form-control" id="inputCompany" placeholder="Nombre de la empresa">
+                            <label for="inputCompanyIndex" class="form-label">Empresa</label>
+                            <input type="text" class="form-control" id="inputCompanyIndex" placeholder="Nombre de la empresa">
                         </div>
                 
                         <!-- Campo de URL del sitio web -->
                         <div class="col-12">
-                            <label for="inputWebsite" class="form-label">URL del Sitio Web</label>
-                            <input type="url" class="form-control" id="inputWebsite" placeholder="https://www.tusitio.com">
+                            <label for="inputWebsiteIndex" class="form-label">URL del Sitio Web</label>
+                            <input type="url" class="form-control" id="inputWebsiteIndex" placeholder="https://www.tusitio.com">
                         </div>
                 
                         <!-- Campo de servicios de interés -->
                         <div class="col-md-12">
-                            <label for="inputServices" class="form-label">Servicios de Interés</label>
-                            <select id="inputServices" class="form-select">
+                            <label for="inputServicesIndex" class="form-label">Servicios de Interés</label>
+                            <select id="inputServicesIndex" class="form-select">
                                 <option selected>Seleccione un servicio...</option>
                                 <option value="mensajeria">Mensajería</option>
                                 <option value="paqueteria">Paquetería</option>
@@ -315,8 +315,8 @@
                 
                         <!-- Campo de mensaje -->
                         <div class="col-12">
-                            <label for="inputMessage" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="inputMessage" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+                            <label for="inputMessageIndex" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="inputMessageIndex" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
                         </div>
                 
                         <!-- Botón de enviar -->
@@ -361,18 +361,19 @@
     <script src="/src/js/script.js"></script>
 
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
+
+        document.getElementById('contactFormIndex').addEventListener('submit', function(event) {
             event.preventDefault();
-            const name = document.getElementById('inputName').value;
-            const email = document.getElementById('inputEmail').value;
-            const phone = document.getElementById('inputPhone').value;
-            const company = document.getElementById('inputCompany').value;
-            const website = document.getElementById('inputWebsite').value;
-            const services = document.getElementById('inputServices').value;
-            const message = document.getElementById('inputMessage').value;
+            const name = document.getElementById('inputNameIndex').value;
+            const email = document.getElementById('inputEmailIndex').value;
+            const phone = document.getElementById('inputPhoneIndex').value;
+            const company = document.getElementById('inputCompanyIndex').value;
+            const website = document.getElementById('inputWebsiteIndex').value;
+            const services = document.getElementById('inputServicesIndex').value;
+            const message = document.getElementById('inputMessageIndex').value;
 
             const whatsappMessage = `Hola, mi nombre es ${name}. Mi correo es ${email}. Mi teléfono es ${phone}. Trabajo en ${company}. Mi sitio web es ${website}. Estoy interesado en ${services}. ${message}`;
-            const whatsappUrl = `https://wa.me/5215534888931?text=${encodeURIComponent(whatsappMessage)}`;
+            const whatsappUrl = `https://web.whatsapp.com/send?phone=5215534888931&text=${encodeURIComponent(whatsappMessage)}`;
 
             window.open(whatsappUrl, '_blank');
         });
