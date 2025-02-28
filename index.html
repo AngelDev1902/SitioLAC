@@ -1,382 +1,656 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LAC México</title>
-    <script src="https://kit.fontawesome.com/81f690b610.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/src/css/header.css">
-    <link rel="stylesheet" href="/src/css/index.css">
-    <link rel="stylesheet" href="/src/css/footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/src/img/logomini2.svg" type="image">
-</head>
-<body>
-    <header>
-        <div class="contactoHeader">
-            <div class="telefonoHeader"><i class="fa-solid fa-phone"></i> 55 3488 8931</div>
-            <div class="correoHeader"><i class="fa-solid fa-envelope"></i> ventas@lacmexico.com</div>
-        </div>
+    <script
+      src="https://kit.fontawesome.com/81f690b610.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/header.css" />
+    <link rel="stylesheet" href="/src/css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/src/img/logomini2.svg" type="image" />
+  </head>
+  <body>
+    <div class="error">
+      <div class="errorContent">
+        <h1>404</h1>
+        <h2>Página no encontrada</h2>
+      </div>
+    </div>
 
-        <nav class="nav">
-            <div class="logo">
-                <a href="index.html"><img src="/src/img/logoCompleto.svg" alt="Logo LAC México"></a>
-            </div>
-            <div class="menu-toggle">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
+    <!-- <header>
+      <div class="contactoHeader">
+        <div class="telefonoHeader">
+          <i class="fa-solid fa-phone"></i> 55 3488 8931
+        </div>
+        <div class="correoHeader">
+          <i class="fa-solid fa-envelope"></i> ventas@lacmexico.com
+        </div>
+      </div>
+
+      <nav class="nav">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="/src/img/logoCompleto.svg" alt="Logo LAC México"
+          /></a>
+        </div>
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div class="fondo"></div>
-        <div class="bienvenida">
-            <div class="efecto"></div>
-            <div class="carrucel">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="/src/img/carrucel1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h5>EQUIPO ALTAMENTE CAPACITADO Y CON EXPERIENCIA</h5> 
-                            <p>En LAC México contamos con un equipo de expertos altamente calificados, dedicados a ofrecerle un servicio de excelencia.</p> 
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="/src/img/carrucel2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h5>ALMACENAJE CONFIABLE Y SEGURO</h5> <p>Proporcionamos soluciones de almacenamiento en instalaciones modernas, diseñadas para garantizar la seguridad de su mercancía.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="/src/img/carrucel3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h5>ENTREGAS EFICIENTES Y SEGURAS</h5> <p>Con LAC México, sus productos llegarán de manera ágil y segura a cualquier destino, sin importar la distancia.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+      <div class="fondo"></div>
+      <div class="bienvenida">
+        <div class="efecto"></div>
+        <div class="carrucel">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/src/img/carrucel1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption">
+                  <h5>EQUIPO ALTAMENTE CAPACITADO Y CON EXPERIENCIA</h5>
+                  <p>
+                    En LAC México contamos con un equipo de expertos altamente
+                    calificados, dedicados a ofrecerle un servicio de
+                    excelencia.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/src/img/carrucel2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption">
+                  <h5>ALMACENAJE CONFIABLE Y SEGURO</h5>
+                  <p>
+                    Proporcionamos soluciones de almacenamiento en instalaciones
+                    modernas, diseñadas para garantizar la seguridad de su
+                    mercancía.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/src/img/carrucel3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption">
+                  <h5>ENTREGAS EFICIENTES Y SEGURAS</h5>
+                  <p>
+                    Con LAC México, sus productos llegarán de manera ágil y
+                    segura a cualquier destino, sin importar la distancia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
+      </div>
 
-        <div class="descripcion">
-            <div class="descripcionContent">
-                <div class="imgDescripcion">
-                </div>
-                <div class="infoDescripcion">
-                    <div class="tituloDescripcion"> <h2>LAC México: el aliado logístico que su empresa necesita</h2> </div> <div class="textoDescripcion"> <p>En LAC México nos encargamos de gestionar toda su operación logística, optimizando los costos y asegurando entregas puntuales para aumentar sus ventas. Nuestro enfoque se basa en combinar servicios logísticos para maximizar la eficiencia y rentabilidad. Somos líderes en soluciones personalizadas, integrando su eCommerce con plataformas de marketplaces y cadenas de autoservicio.</p></div>
-                    <a href="nosotros.html" class="botonDescipcion boton">SABER MÁS</a>
-                </div>
+      <div class="descripcion">
+        <div class="descripcionContent">
+          <div class="imgDescripcion"></div>
+          <div class="infoDescripcion">
+            <div class="tituloDescripcion">
+              <h2>LAC México: el aliado logístico que su empresa necesita</h2>
             </div>
+            <div class="textoDescripcion">
+              <p>
+                En LAC México nos encargamos de gestionar toda su operación
+                logística, optimizando los costos y asegurando entregas
+                puntuales para aumentar sus ventas. Nuestro enfoque se basa en
+                combinar servicios logísticos para maximizar la eficiencia y
+                rentabilidad. Somos líderes en soluciones personalizadas,
+                integrando su eCommerce con plataformas de marketplaces y
+                cadenas de autoservicio.
+              </p>
+            </div>
+            <a href="nosotros.html" class="botonDescipcion boton">SABER MÁS</a>
+          </div>
         </div>
+      </div>
 
-        <div class="servicios">
-            <div class="imgservicio">
-                <img src="/src/img/servicio.jpg" alt="Servicio 1">
-            </div>
-            <div class="infoServicios">
-                <div class="tituloServicios">
-                    <h2>Servicios Ofrecidos</h2>
-                </div>
-                <div class="contenidoServicios">
-                    <div class="descripcionServicio">
-                        <p>Disponemos de una variedad de servicios logísticos, entre ellos:</p> <ul> <li><span>Mensajería:</span> Servicio de envíos urgentes y estándar dentro y fuera del país.</li> <li><span>Paquetería:</span> Transporte de paquetes medianos y grandes en territorio nacional.</li> <li><span>Almacenamiento:</span> Espacios seguros y confiables en instalaciones avanzadas.</li> <li><span>Distribución:</span> Entregas nacionales e internacionales.</li> <li><span>Gestión de inventarios:</span> Control eficiente de existencias para su empresa.</li> <li><span>Importaciones:</span> Facilitamos la entrada de productos desde cualquier lugar del mundo.</li> <li><span>Exportaciones:</span> Hacemos posible el envío de productos a nivel global.</li> <li><span>Implantación:</span> Diseñamos soluciones logísticas a medida para su negocio.</li> <li><span>Integraciones:</span> Nos conectamos con diversas plataformas de comercio electrónico.</li> </ul>
-                    </div>
-                    <a href="servicios.html" class="botonServicios boton">VER MAS <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
+      <div class="servicios">
+        <div class="imgservicio">
+          <img src="/src/img/servicio.jpg" alt="Servicio 1" />
         </div>
-
-        <div class="porqueElegirnos">
-            <div class="imgPorqueElegirnos">
-                <img src="src/img/elegirnos.jpg" alt="Porque Elegirnos">
+        <div class="infoServicios">
+          <div class="tituloServicios">
+            <h2>Servicios Ofrecidos</h2>
+          </div>
+          <div class="contenidoServicios">
+            <div class="descripcionServicio">
+              <p>
+                Disponemos de una variedad de servicios logísticos, entre ellos:
+              </p>
+              <ul>
+                <li>
+                  <span>Mensajería:</span> Servicio de envíos urgentes y
+                  estándar dentro y fuera del país.
+                </li>
+                <li>
+                  <span>Paquetería:</span> Transporte de paquetes medianos y
+                  grandes en territorio nacional.
+                </li>
+                <li>
+                  <span>Almacenamiento:</span> Espacios seguros y confiables en
+                  instalaciones avanzadas.
+                </li>
+                <li>
+                  <span>Distribución:</span> Entregas nacionales e
+                  internacionales.
+                </li>
+                <li>
+                  <span>Gestión de inventarios:</span> Control eficiente de
+                  existencias para su empresa.
+                </li>
+                <li>
+                  <span>Importaciones:</span> Facilitamos la entrada de
+                  productos desde cualquier lugar del mundo.
+                </li>
+                <li>
+                  <span>Exportaciones:</span> Hacemos posible el envío de
+                  productos a nivel global.
+                </li>
+                <li>
+                  <span>Implantación:</span> Diseñamos soluciones logísticas a
+                  medida para su negocio.
+                </li>
+                <li>
+                  <span>Integraciones:</span> Nos conectamos con diversas
+                  plataformas de comercio electrónico.
+                </li>
+              </ul>
             </div>
-            <div class="infoPorqueElegirnos">
-                <div class="tituloPorqueElegirnos"> <h2>¿Por qué elegirnos?</h2> </div> <p class="pElegirnos">LAC México es una empresa 100% mexicana con más de dos décadas de experiencia en logística. Nos esforzamos por ofrecer soluciones innovadoras y de alta calidad, enfocadas en mejorar la eficiencia operativa de nuestros clientes y optimizar sus resultados.</p> 
-                <ul class="estadisticas">
-                    <li>
-                        <p class="pEntregados">Envios entregados</p>
-                        <p class="barra"><span style="width: 0;">100%</span></p>
-                    </li>
-                    <li>
-                        <p class="pEntregados">Envios entregados</p>
-                        <p class="barra"><span style="width: 0;">100%</span></p>
-                    </li>
-                    <li>
-                        <p class="pEntregados">Envios entregados</p>
-                        <p class="barra"><span style="width: 0;">100%</span></p>
-                    </li>
-                </ul>
-            </div>
+            <a href="servicios.html" class="botonServicios boton"
+              >VER MAS <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
         </div>
+      </div>
 
-        <div class="confian">
-            <div class="tituloConfian">
-                <h2>Empresas que confían en nosotros</h2>
-            </div>
-            <div class="carrucelConfian">
-                <div class="carrucelTrack">
-                    <div class="carrucelImg"><img src="/src/img/confian1.png" alt="" class="empresa"></div>
-                    <div class="carrucelImg"><img src="/src/img/confian2.png" alt="" class="empresa"></div>
-                    <div class="carrucelImg"><img src="/src/img/confian3.png" alt="" class="empresa"></div>
-                    <div class="carrucelImg"><img src="/src/img/confian4.png" alt="" class="empresa"></div>
-                    <div class="carrucelImg"><img src="/src/img/confian5.png" alt="" class="empresa"></div>
-                    <div class="carrucelImg"><img src="/src/img/confian6.png" alt="" class="empresa"></div>
-                </div>
-            </div>
+      <div class="porqueElegirnos">
+        <div class="imgPorqueElegirnos">
+          <img src="src/img/elegirnos.jpg" alt="Porque Elegirnos" />
         </div>
-
-        <div class="opiniones">
-            <div class="tituloOpiniones"> <h2>Testimonios de nuestros clientes</h2> </div> 
-            <div class="opninionesContainer">
-
-                <div class="opinion">
-                    <p class="estrellas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-                    <p class="comentario">"Recomiendo ampliamente los servicios de LAC porque se encargan de toda la logística de mis ventas, permitiéndome enfocarme en otros aspectos del negocio."</p>
-                    <p class="cliente">Luis Martínez</p>
-                    <p class="puesto">Fundador de "EcoVibes"</p>
-                </div>
-                
-                <div class="opinion">
-                    <p class="estrellas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-                    <p class="comentario">“Elegimos LAC México por su atención personalizada y capacidad para atender todas nuestras necesidades logísticas de manera eficiente.”</p>
-                    <p class="cliente">Ana López</p>
-                    <p class="puesto">Gerente de Operaciones en “AutoSolutions”</p>
-                </div>
-                
-                <div class="opinion">
-                    <p class="estrellas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-                    <p class="comentario">“Llegamos a LAC México por recomendación, y trabajar con ellos ha sido una de nuestras mejores decisiones.”</p>
-                    <p class="cliente">Carla Fernández</p>
-                    <p class="puesto">Directora General de “GreenBloom”</p>
-                </div>
-                
-            </div>
+        <div class="infoPorqueElegirnos">
+          <div class="tituloPorqueElegirnos"><h2>¿Por qué elegirnos?</h2></div>
+          <p class="pElegirnos">
+            LAC México es una empresa 100% mexicana con más de dos décadas de
+            experiencia en logística. Nos esforzamos por ofrecer soluciones
+            innovadoras y de alta calidad, enfocadas en mejorar la eficiencia
+            operativa de nuestros clientes y optimizar sus resultados.
+          </p>
+          <ul class="estadisticas">
+            <li>
+              <p class="pEntregados">Envios entregados</p>
+              <p class="barra"><span style="width: 0">100%</span></p>
+            </li>
+            <li>
+              <p class="pEntregados">Envios entregados</p>
+              <p class="barra"><span style="width: 0">100%</span></p>
+            </li>
+            <li>
+              <p class="pEntregados">Envios entregados</p>
+              <p class="barra"><span style="width: 0">100%</span></p>
+            </li>
+          </ul>
         </div>
+      </div>
 
-        <div class="cedis">
-            <div class="tituloCedis">
-                <h2>CONTAMOS CON CEDIS NACIONALES E INTERNACIONALES</h2>
-            </div>
-            <div class="contenidoCedis">
-                <div class="cedisMexico">
-                    <div class="imgCedis">
-                        <img src="src/img/mexico.png" alt="CEDIS México">
-                    </div>
-                    <h3>MÉXICO</h3>
-                    <div class="infoCedis">
-                        <p><strong>Centro (CDMX):</strong> Cobertura en la Ciudad de México.</p>
-                        <p><strong>Estado de México:</strong> Lerma y Cuautitlán.</p>
-                        <p><strong>Norte (Monterrey):</strong> Cobertura en Monterrey, Torreón, Tamaulipas, Tampico, Coahuila, Hermosillo.</p>
-                        <p><strong>Occidente (Guadalajara):</strong> Cobertura en Guadalajara, Colima, Puerto Vallarta, Ciudad Guzmán.</p>
-                        <p><strong>Sureste (Puebla – Mérida):</strong> Cobertura en Puebla, Oaxaca, Chiapas, Veracruz, Yucatán, Mérida, Villahermosa, Tuxtla.</p>
-                        <p><strong>Pacífico (Tijuana):</strong> Cobertura en Hermosillo, Culiacán, Los Cabos, Tijuana, La Paz, Los Mochis.</p>
-                        <p><strong>Bajío (León):</strong> Cobertura en León, Morelia, Aguascalientes, Querétaro, San Luis Potosí, San Juan del Río.</p>
-                    </div>
-                </div>
-                
-                <div class="cedisColombia">
-                    <div class="imgCedis">
-                        <img src="src/img/colombia.png" alt="CEDIS Colombia">
-                    </div>
-                    <h3>COLOMBIA</h3>
-                    <div class="infoCedis">
-                        <p><strong>Norte:</strong> Cobertura en Bolívar, Magdalena, Cesar, Córdoba, Cartagena.</p>
-                        <p><strong>Centro:</strong> Cobertura en Cundinamarca, Boyacá, Llanos Orientales, Ibagué, Tolima, Huila, Caquetá.</p>
-                        <p><strong>Sur Occidente:</strong> Cobertura en Nariño, Cauca, Valle del Cauca.</p>
-                        <p><strong>Eje Cafetero:</strong> Cobertura en Risaralda, Caldas, Quindío.</p>
-                        <p><strong>Nor Occidente:</strong> Cobertura en Antioquia, Sucre, Chocó.</p>
-                        <p><strong>Oriente:</strong> Cobertura en Santanderes.</p>
-                    </div>
-                </div>
-                
-            </div>
+      <div class="confian">
+        <div class="tituloConfian">
+          <h2>Empresas que confían en nosotros</h2>
         </div>
+        <div class="carrucelConfian">
+          <div class="carrucelTrack">
+            <div class="carrucelImg">
+              <img src="/src/img/confian1.png" alt="" class="empresa" />
+            </div>
+            <div class="carrucelImg">
+              <img src="/src/img/confian2.png" alt="" class="empresa" />
+            </div>
+            <div class="carrucelImg">
+              <img src="/src/img/confian3.png" alt="" class="empresa" />
+            </div>
+            <div class="carrucelImg">
+              <img src="/src/img/confian4.png" alt="" class="empresa" />
+            </div>
+            <div class="carrucelImg">
+              <img src="/src/img/confian5.png" alt="" class="empresa" />
+            </div>
+            <div class="carrucelImg">
+              <img src="/src/img/confian6.png" alt="" class="empresa" />
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="articulos">
-            <div class="tituloArticulos">
-                <h2>ARTICULOS SOBRE LOGISTICA Y PAQUETERIA</h2>
-            </div>
-            <div class="contenidoArticulos">
-                <div class="articulo">
-                    <div class="imgArticulo">
-                        <img src="/src/img/articulo1.svg" alt="Artículo 1">
-                    </div>
-                    <div class="infoArticulo">
-                        <h3>COMO EMPACAR CORRECTAMENTE UN ENVIO</h3>
-                        <p>Te mostramos las tecnicas y trucos más usados para ek empaquetado correcto de envios</p>
-                        <a href="blog1.html" class="botonArticulo boton">LEER MÁS</a>
-                    </div>
-                </div>
-                <div class="articulo">
-                    <div class="imgArticulo">
-                        <img src="/src/img/articulo2.svg" alt="Artículo 2">
-                    </div>
-                    <div class="infoArticulo">
-                        <h3>PAQUETERIAS MÁS EFICIENTES EN MEXICO 2025</h3>
-                        <p>Estas son las paqueterias mas rapidas, seguras y confiables del pais este 2025</p>
-                        <a href="blog2.html" class="botonArticulo boton">LEER MÁS</a>
-                    </div>
-                </div>
-            </div>
+      <div class="opiniones">
+        <div class="tituloOpiniones">
+          <h2>Testimonios de nuestros clientes</h2>
         </div>
+        <div class="opninionesContainer">
+          <div class="opinion">
+            <p class="estrellas">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+            <p class="comentario">
+              "Recomiendo ampliamente los servicios de LAC porque se encargan de
+              toda la logística de mis ventas, permitiéndome enfocarme en otros
+              aspectos del negocio."
+            </p>
+            <p class="cliente">Luis Martínez</p>
+            <p class="puesto">Fundador de "EcoVibes"</p>
+          </div>
 
-        <div class="contacto">
-            <div class="tituloContacto">
-                <h2>Contacto</h2>
-            </div>
-            <div class="contenidoContacto">
-                <div class="infoContacto">
-                    <div class="imgContacto">
-                        <img src="/src/img/contacto.jpg" alt="Contacto">
-                    </div>
-                    <div class="telefonoContacto">
-                        <i class="fa-solid fa-phone"></i> 55 3488 8931
-                    </div>
-                    <div class="correoContacto">
-                        <i class="fa-solid fa-envelope"></i> ventas@lacmexico.com 
-                    </div>
-                </div>
-                <div class="formularioContacto">
-                    <form class="row g-3" id="contactFormIndex">
-                        <!-- Campo de correo -->
-                        <div class="col-md-6">
-                            <label for="inputEmailIndex" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="inputEmailIndex" placeholder="example@email.com">
-                        </div>
-                
-                        <!-- Campo de nombre -->
-                        <div class="col-md-6">
-                            <label for="inputNameIndex" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="inputNameIndex" placeholder="Nombre completo">
-                        </div>
-                
-                        <!-- Campo de teléfono -->
-                        <div class="col-md-6">
-                            <label for="inputPhoneIndex" class="form-label">Teléfono</label>
-                            <input type="tel" class="form-control" id="inputPhoneIndex" placeholder="(555) 555-5555">
-                        </div>
-                
-                        <!-- Campo de empresa -->
-                        <div class="col-md-6">
-                            <label for="inputCompanyIndex" class="form-label">Empresa</label>
-                            <input type="text" class="form-control" id="inputCompanyIndex" placeholder="Nombre de la empresa">
-                        </div>
-                
-                        <!-- Campo de URL del sitio web -->
-                        <div class="col-12">
-                            <label for="inputWebsiteIndex" class="form-label">URL del Sitio Web</label>
-                            <input type="url" class="form-control" id="inputWebsiteIndex" placeholder="https://www.tusitio.com">
-                        </div>
-                
-                        <!-- Campo de servicios de interés -->
-                        <div class="col-md-12">
-                            <label for="inputServicesIndex" class="form-label">Servicios de Interés</label>
-                            <select id="inputServicesIndex" class="form-select">
-                                <option selected>Seleccione un servicio...</option>
-                                <option value="mensajeria">Mensajería</option>
-                                <option value="paqueteria">Paquetería</option>
-                                <option value="almacenaje">Almacenaje</option>
-                                <option value="distribucion">Distribución</option>
-                                <option value="control_inventario">Control de Inventario</option>
-                                <option value="exportaciones">Exportaciones</option>
-                                <option value="importaciones">Importaciones</option>
-                                <option value="iplant">iPlant</option>
-                                <option value="envios_baratos">Envíos Baratos</option>
-                                <option value="envios_internacionales">Envíos Internacionales</option>
-                            </select>
-                        </div>
-                
-                        <!-- Campo de mensaje -->
-                        <div class="col-12">
-                            <label for="inputMessageIndex" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="inputMessageIndex" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
-                        </div>
-                
-                        <!-- Botón de enviar -->
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </div>
-                    </form>
-                </div>                
-            </div>
+          <div class="opinion">
+            <p class="estrellas">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+            <p class="comentario">
+              “Elegimos LAC México por su atención personalizada y capacidad
+              para atender todas nuestras necesidades logísticas de manera
+              eficiente.”
+            </p>
+            <p class="cliente">Ana López</p>
+            <p class="puesto">Gerente de Operaciones en “AutoSolutions”</p>
+          </div>
+
+          <div class="opinion">
+            <p class="estrellas">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+            <p class="comentario">
+              “Llegamos a LAC México por recomendación, y trabajar con ellos ha
+              sido una de nuestras mejores decisiones.”
+            </p>
+            <p class="cliente">Carla Fernández</p>
+            <p class="puesto">Directora General de “GreenBloom”</p>
+          </div>
         </div>
+      </div>
+
+      <div class="cedis">
+        <div class="tituloCedis">
+          <h2>CONTAMOS CON CEDIS NACIONALES E INTERNACIONALES</h2>
+        </div>
+        <div class="contenidoCedis">
+          <div class="cedisMexico">
+            <div class="imgCedis">
+              <img src="src/img/mexico.png" alt="CEDIS México" />
+            </div>
+            <h3>MÉXICO</h3>
+            <div class="infoCedis">
+              <p>
+                <strong>Centro (CDMX):</strong> Cobertura en la Ciudad de
+                México.
+              </p>
+              <p><strong>Estado de México:</strong> Lerma y Cuautitlán.</p>
+              <p>
+                <strong>Norte (Monterrey):</strong> Cobertura en Monterrey,
+                Torreón, Tamaulipas, Tampico, Coahuila, Hermosillo.
+              </p>
+              <p>
+                <strong>Occidente (Guadalajara):</strong> Cobertura en
+                Guadalajara, Colima, Puerto Vallarta, Ciudad Guzmán.
+              </p>
+              <p>
+                <strong>Sureste (Puebla – Mérida):</strong> Cobertura en Puebla,
+                Oaxaca, Chiapas, Veracruz, Yucatán, Mérida, Villahermosa,
+                Tuxtla.
+              </p>
+              <p>
+                <strong>Pacífico (Tijuana):</strong> Cobertura en Hermosillo,
+                Culiacán, Los Cabos, Tijuana, La Paz, Los Mochis.
+              </p>
+              <p>
+                <strong>Bajío (León):</strong> Cobertura en León, Morelia,
+                Aguascalientes, Querétaro, San Luis Potosí, San Juan del Río.
+              </p>
+            </div>
+          </div>
+
+          <div class="cedisColombia">
+            <div class="imgCedis">
+              <img src="src/img/colombia.png" alt="CEDIS Colombia" />
+            </div>
+            <h3>COLOMBIA</h3>
+            <div class="infoCedis">
+              <p>
+                <strong>Norte:</strong> Cobertura en Bolívar, Magdalena, Cesar,
+                Córdoba, Cartagena.
+              </p>
+              <p>
+                <strong>Centro:</strong> Cobertura en Cundinamarca, Boyacá,
+                Llanos Orientales, Ibagué, Tolima, Huila, Caquetá.
+              </p>
+              <p>
+                <strong>Sur Occidente:</strong> Cobertura en Nariño, Cauca,
+                Valle del Cauca.
+              </p>
+              <p>
+                <strong>Eje Cafetero:</strong> Cobertura en Risaralda, Caldas,
+                Quindío.
+              </p>
+              <p>
+                <strong>Nor Occidente:</strong> Cobertura en Antioquia, Sucre,
+                Chocó.
+              </p>
+              <p><strong>Oriente:</strong> Cobertura en Santanderes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="articulos">
+        <div class="tituloArticulos">
+          <h2>ARTICULOS SOBRE LOGISTICA Y PAQUETERIA</h2>
+        </div>
+        <div class="contenidoArticulos">
+          <div class="articulo">
+            <div class="imgArticulo">
+              <img src="/src/img/articulo1.svg" alt="Artículo 1" />
+            </div>
+            <div class="infoArticulo">
+              <h3>COMO EMPACAR CORRECTAMENTE UN ENVIO</h3>
+              <p>
+                Te mostramos las tecnicas y trucos más usados para ek
+                empaquetado correcto de envios
+              </p>
+              <a href="blog1.html" class="botonArticulo boton">LEER MÁS</a>
+            </div>
+          </div>
+          <div class="articulo">
+            <div class="imgArticulo">
+              <img src="/src/img/articulo2.svg" alt="Artículo 2" />
+            </div>
+            <div class="infoArticulo">
+              <h3>PAQUETERIAS MÁS EFICIENTES EN MEXICO 2025</h3>
+              <p>
+                Estas son las paqueterias mas rapidas, seguras y confiables del
+                pais este 2025
+              </p>
+              <a href="blog2.html" class="botonArticulo boton">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacto">
+        <div class="tituloContacto">
+          <h2>Contacto</h2>
+        </div>
+        <div class="contenidoContacto">
+          <div class="infoContacto">
+            <div class="imgContacto">
+              <img src="/src/img/contacto.jpg" alt="Contacto" />
+            </div>
+            <div class="telefonoContacto">
+              <i class="fa-solid fa-phone"></i> 55 3488 8931
+            </div>
+            <div class="correoContacto">
+              <i class="fa-solid fa-envelope"></i> ventas@lacmexico.com
+            </div>
+          </div>
+          <div class="formularioContacto">
+            <form class="row g-3" id="contactFormIndex">
+              Campo de correo 
+              <div class="col-md-6">
+                <label for="inputEmailIndex" class="form-label"
+                  >Correo Electrónico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmailIndex"
+                  placeholder="example@email.com"
+                />
+              </div>
+
+              Campo de nombre
+              <div class="col-md-6">
+                <label for="inputNameIndex" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputNameIndex"
+                  placeholder="Nombre completo"
+                />
+              </div>
+
+              Campo de teléfono
+              <div class="col-md-6">
+                <label for="inputPhoneIndex" class="form-label">Teléfono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="inputPhoneIndex"
+                  placeholder="(555) 555-5555"
+                />
+              </div>
+
+              Campo de empresa
+              <div class="col-md-6">
+                <label for="inputCompanyIndex" class="form-label"
+                  >Empresa</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCompanyIndex"
+                  placeholder="Nombre de la empresa"
+                />
+              </div>
+
+              Campo de URL del sitio web
+              <div class="col-12">
+                <label for="inputWebsiteIndex" class="form-label"
+                  >URL del Sitio Web</label
+                >
+                <input
+                  type="url"
+                  class="form-control"
+                  id="inputWebsiteIndex"
+                  placeholder="https://www.tusitio.com"
+                />
+              </div>
+
+              Campo de servicios de interés
+              <div class="col-md-12">
+                <label for="inputServicesIndex" class="form-label"
+                  >Servicios de Interés</label
+                >
+                <select id="inputServicesIndex" class="form-select">
+                  <option selected>Seleccione un servicio...</option>
+                  <option value="mensajeria">Mensajería</option>
+                  <option value="paqueteria">Paquetería</option>
+                  <option value="almacenaje">Almacenaje</option>
+                  <option value="distribucion">Distribución</option>
+                  <option value="control_inventario">
+                    Control de Inventario
+                  </option>
+                  <option value="exportaciones">Exportaciones</option>
+                  <option value="importaciones">Importaciones</option>
+                  <option value="iplant">iPlant</option>
+                  <option value="envios_baratos">Envíos Baratos</option>
+                  <option value="envios_internacionales">
+                    Envíos Internacionales
+                  </option>
+                </select>
+              </div>
+
+              Campo de mensaje
+              <div class="col-12">
+                <label for="inputMessageIndex" class="form-label"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form-control"
+                  id="inputMessageIndex"
+                  rows="4"
+                  placeholder="Escribe tu mensaje aquí..."
+                ></textarea>
+              </div>
+
+              Botón de enviar
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div class="logoFooter">
-            <img src="src/img/logoBlanco.svg" alt="Logo LAC México">
-            <p>Somos una empresa logística 100% mexicana que brinda servicios de excelencia con un equipo altamente capacitado.</p>
-        </div>
-        <div class="menuFooter">
-            <h3>Mapa del sitio</h3>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <div class="serviciosFooter">
-            <h3>Servicios</h3>
-            <ul>
-                <li><a href="mensajeria.html">Mensajeria</a></li>
-                <li><a href="almacenaje.html">Almacenaje</a></li>
-                <li><a href="distribucion.html">Distribucion</a></li>
-                <li><a href="inventario.html">Control de Inventario</a></li>
-                <li><a href="importaciones.html">Importaciones</a></li>
-                <li><a href="exportaciones.html">Exportaciones</a></li>
-                <li><a href="iplant.html">Implant</a></li>
-            </ul>
-        </div>
+      <div class="logoFooter">
+        <img src="src/img/logoBlanco.svg" alt="Logo LAC México" />
+        <p>
+          Somos una empresa logística 100% mexicana que brinda servicios de
+          excelencia con un equipo altamente capacitado.
+        </p>
+      </div>
+      <div class="menuFooter">
+        <h3>Mapa del sitio</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="serviciosFooter">
+        <h3>Servicios</h3>
+        <ul>
+          <li><a href="mensajeria.html">Mensajeria</a></li>
+          <li><a href="almacenaje.html">Almacenaje</a></li>
+          <li><a href="distribucion.html">Distribucion</a></li>
+          <li><a href="inventario.html">Control de Inventario</a></li>
+          <li><a href="importaciones.html">Importaciones</a></li>
+          <li><a href="exportaciones.html">Exportaciones</a></li>
+          <li><a href="iplant.html">Implant</a></li>
+        </ul>
+      </div>
     </footer>
 
     <script src="/src/js/script.js"></script>
 
     <script>
+      document
+        .getElementById("contactFormIndex")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          const name = document.getElementById("inputNameIndex").value;
+          const email = document.getElementById("inputEmailIndex").value;
+          const phone = document.getElementById("inputPhoneIndex").value;
+          const company = document.getElementById("inputCompanyIndex").value;
+          const website = document.getElementById("inputWebsiteIndex").value;
+          const services = document.getElementById("inputServicesIndex").value;
+          const message = document.getElementById("inputMessageIndex").value;
 
-        document.getElementById('contactFormIndex').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const name = document.getElementById('inputNameIndex').value;
-            const email = document.getElementById('inputEmailIndex').value;
-            const phone = document.getElementById('inputPhoneIndex').value;
-            const company = document.getElementById('inputCompanyIndex').value;
-            const website = document.getElementById('inputWebsiteIndex').value;
-            const services = document.getElementById('inputServicesIndex').value;
-            const message = document.getElementById('inputMessageIndex').value;
+          const whatsappMessage = `Hola, mi nombre es ${name}. Mi correo es ${email}. Mi teléfono es ${phone}. Trabajo en ${company}. Mi sitio web es ${website}. Estoy interesado en ${services}. ${message}`;
+          const whatsappUrl = `https://web.whatsapp.com/send?phone=5215534888931&text=${encodeURIComponent(
+            whatsappMessage
+          )}`;
 
-            const whatsappMessage = `Hola, mi nombre es ${name}. Mi correo es ${email}. Mi teléfono es ${phone}. Trabajo en ${company}. Mi sitio web es ${website}. Estoy interesado en ${services}. ${message}`;
-            const whatsappUrl = `https://web.whatsapp.com/send?phone=5215534888931&text=${encodeURIComponent(whatsappMessage)}`;
-
-            window.open(whatsappUrl, '_blank');
+          window.open(whatsappUrl, "_blank");
         });
-    </script>
-</body>
+    </script> -->
+  </body>
 </html>

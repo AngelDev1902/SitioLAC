@@ -1,788 +1,805 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-
-
-
 
 .fondo {
-    background-image: url(/src/img/descripcion.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
+  background-image: url(/src/img/descripcion.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
-.bienvenida{
-    width: 100%;
-    height: 85vh;
-    position: relative;
+.bienvenida {
+  width: 100%;
+  height: 85vh;
+  position: relative;
 }
 
-.carrucel{
-    width: 100%;
-    height: 100%;
+.carrucel {
+  width: 100%;
+  height: 100%;
 }
 
-.carousel{
-    width: 100%;
-    height: 100%;
+.carousel {
+  width: 100%;
+  height: 100%;
 }
 
-.carousel img{
-    object-fit: cover;
+.carousel img {
+  object-fit: cover;
 }
 
-.carousel .carousel-inner{
-    width: 100%;
-    height: 100%;
+.carousel .carousel-inner {
+  width: 100%;
+  height: 100%;
 }
 
-.carousel .carousel-inner .carousel-item{
-    width: 100%;
-    height: 100%;
-    position: relative;
+.carousel .carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 10px;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 1;
 }
 
 .carousel-caption h5 {
-    font-size: 3rem;
-    font-weight: 200;
+  font-size: 3rem;
+  font-weight: 200;
 }
 
 .carousel-caption p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.efecto{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+.efecto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
-
 
 /* Seccion de servicios */
 .servicios {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem 3rem;
-    gap: 10%;
-    background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem;
+  gap: 10%;
+  background-color: white;
 }
 
 .imgservicio {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgservicio img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 
-    box-shadow: 5rem 3rem 0 0 #cd883b;
+  box-shadow: 5rem 3rem 0 0 #cd883b;
 }
 
 .infoServicios {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tituloServicios h2 {
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgb(50, 50, 50);
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(50, 50, 50);
 }
 
 .descripcionServicio {
-    font-size: 1.1rem;
-    color: rgb(50, 50, 50);
-    padding: 0 2rem;
+  font-size: 1.1rem;
+  color: rgb(50, 50, 50);
+  padding: 0 2rem;
 }
 
 .descripcionServicio span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
-
 .botonServicios:hover {
-    background-color: sandybrown;
-    color: rgb(18, 18, 18);
-    transition: all 0.5s;
+  background-color: sandybrown;
+  color: rgb(18, 18, 18);
+  transition: all 0.5s;
 }
 
 .botonServicios:hover i {
-    transform: rotate(360deg);
-    transition: all 0.5s;
+  transform: rotate(360deg);
+  transition: all 0.5s;
 }
 
 /* seccion de descripcion */
 .descripcion {
-    width: 100%;
-    height: 40rem;
+  width: 100%;
+  height: 40rem;
 }
 
 .imgDescripcion {
-    order: 1;
-    width: 60%;
-    height: 100%;
+  order: 1;
+  width: 60%;
+  height: 100%;
 }
 
 .descripcionContent {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .infoDescripcion {
-    width: 40%;
-    height: 100%;
-    background-color: white;
-    padding: 2rem 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .tituloDescripcion h2 {
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgb(50, 50, 50);
-    text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 .textoDescripcion p {
-    font-size: 1.1rem;
-    color: rgb(50, 50, 50);
-    text-align: center;
+  font-size: 1.1rem;
+  color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 .botonDescipcion {
-    background: none;
-    color: rgb(176, 176, 176);
-    font-size: 1.2rem;
-    margin: 0;
+  background: none;
+  color: rgb(176, 176, 176);
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 .botonDescipcion:hover {
-    color: sandybrown;
+  color: sandybrown;
 }
 
 .porqueElegirnos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
 }
 
 .imgPorqueElegirnos {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgPorqueElegirnos img {
-    width: 60%;
-    object-fit: cover;
-    box-shadow: 2rem 1rem 0 0 #cd883b;
+  width: 60%;
+  object-fit: cover;
+  box-shadow: 2rem 1rem 0 0 #cd883b;
 }
 
 .infoPorqueElegirnos {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 .tituloPorqueElegirnos h2 {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .pElegirnos {
-    font-size: 1.1rem;
-    color: rgb(50, 50, 50);
-    text-align: center;
+  font-size: 1.1rem;
+  color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 .estadisticas {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .pEntregados {
-    text-align: left;
+  text-align: left;
 }
 
 .barra {
-    width: 100%;
-    height: 1.7rem;
-    text-align: right;
-    color: white;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 1.7rem;
+  text-align: right;
+  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
 .barra span {
-    display: block;
-    height: 100%;
-    background-color: #1a2139; /* Color de la barra */
-    width: 0; /* Ancho inicial de la barra */
-    transition: width 2s ease; /* Transición para la animación */
-    padding: 0 2rem;
+  display: block;
+  height: 100%;
+  background-color: #1a2139; /* Color de la barra */
+  width: 0; /* Ancho inicial de la barra */
+  transition: width 2s ease; /* Transición para la animación */
+  padding: 0 2rem;
 }
 
 /* Seccion opiniones */
 
 .opiniones {
-    width: 100%;
-    background-color: #e8ebea;
+  width: 100%;
+  background-color: #e8ebea;
 }
 
 .tituloOpiniones {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
 }
 
 .tituloOpiniones h2 {
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgb(50, 50, 50);
-    text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 .opninionesContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    padding: 0 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 0 5rem;
 }
 
 .opinion {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .estrellas {
-    color: rgb(225, 155, 63);
-    text-align: left;
-    width: 100%;
+  color: rgb(225, 155, 63);
+  text-align: left;
+  width: 100%;
 }
 
 .comentario {
-    font-size: 1.1rem;
-    color: rgb(50, 50, 50);
-    text-align: center;
-    text-align: justify;
-    width: 100%;
+  font-size: 1.1rem;
+  color: rgb(50, 50, 50);
+  text-align: center;
+  text-align: justify;
+  width: 100%;
 }
 
 .cliente {
-    text-align: left;
-    font-size: 1.2rem;
-    color: rgb(50, 50, 50);
-    font-weight: 700;
-    width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  width: 100%;
 }
 
 .puesto {
-    text-align: left;
-    font-size: 1.5rem;
-    color: rgb(88, 88, 88);
-    width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(88, 88, 88);
+  width: 100%;
 }
 
 /* Seccion confian en nosotros */
 
 .confian {
-    width: 100%;
-    height: 55vh;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+  width: 100%;
+  height: 55vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
 .tituloConfian {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 .tituloConfian h2 {
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgb(50, 50, 50);
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(50, 50, 50);
 }
 
 .carrucelConfian {
-    width: 100%;
-    overflow: hidden; /* Ocultar las imágenes fuera del área visible */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 100%;
+  overflow: hidden; /* Ocultar las imágenes fuera del área visible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .carrucelTrack {
-    display: flex;
-    transition: transform 0.5s ease; /* Transición suave para el movimiento */
+  display: flex;
+  transition: transform 0.5s ease; /* Transición suave para el movimiento */
 }
 
 .carrucelImg {
-    flex: 0 0 calc(33.33% - 2rem); /* Mostrar 3 imágenes */
-    margin: 0 1rem; /* Espaciado entre imágenes */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 0 0 calc(33.33% - 2rem); /* Mostrar 3 imágenes */
+  margin: 0 1rem; /* Espaciado entre imágenes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .empresa {
-    height: 10rem;
-    object-fit: cover;
+  height: 10rem;
+  object-fit: cover;
 }
 
 .cedis {
-    width: 100%;
-    background-color: #e8ebea;
+  width: 100%;
+  background-color: #e8ebea;
 }
 
 .tituloCedis {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 .tituloCedis h2 {
-    font-size: 2.5rem;
-    font-weight: 200;
-    text-align: center;
-    color: rgb(50, 50, 50);
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(50, 50, 50);
 }
 
 .contenidoCedis {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    padding: 0 5rem;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 5rem;
 }
 
-.cedisMexico, .cedisColombia {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+.cedisMexico,
+.cedisColombia {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .imgCedis {
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgCedis img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 /* Seccion de Articulos */
 
 .articulos {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: white;
 }
 
 .tituloArticulos {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0 0 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 0 0;
 }
 
 .tituloArticulos h2 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgb(50, 50, 50);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(50, 50, 50);
 }
 
 .contenidoArticulos {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: self-start;
-    gap: 5rem;
-    padding: 0 5rem;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  gap: 5rem;
+  padding: 0 5rem;
 }
 
 .articulo {
-    width: 25rem;
-    height: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    border: 5px solid rgb(225, 155, 63);
-    border-radius: 15px;
-    padding: 3rem;
+  width: 25rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 5px solid rgb(225, 155, 63);
+  border-radius: 15px;
+  padding: 3rem;
 }
 
 .imgArticulo {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgArticulo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .infoArticulo {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .infoArticulo h3 {
-    font-size: 1.5rem;
-    color: rgb(50, 50, 50);
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
 }
 
 .infoArticulo p {
-    font-size: 1.1rem;
-    color: rgb(50, 50, 50);
-    text-align: center;
+  font-size: 1.1rem;
+  color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 .botonArticulo {
-    background-color: rgb(225, 155, 63);
-    color: white;
-    font-size: 1.2rem;
-    margin: 0;
+  background-color: rgb(225, 155, 63);
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 /* section de contacto */
 
 .contacto {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    background-color: rgb(251, 251, 251);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgb(251, 251, 251);
 }
 
 .tituloContacto {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 .tituloContacto h2 {
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgb(50, 50, 50);
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(50, 50, 50);
 }
 
 .contenidoContacto {
-    width: 80%;
-    height: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 5rem;
-    padding: 0 5rem;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 5rem;
 }
 
 .infoContacto {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .formularioContacto {
-    width: 60%;
-    height: 100%;
+  width: 60%;
+  height: 100%;
 }
 
 .imgContacto {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 5rem;
 }
 
 .imgContacto img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .boton {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    width: 10rem;
-    height: 2.5rem;
-    border: none;
-    background-color: #cd883b;
-    color: white;
-    font-style: italic;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 2.5rem;
+  border: none;
+  background-color: #cd883b;
+  color: white;
+  font-style: italic;
 }
 
 @media (max-width: 1400px) {
-    h2 {
-        font-size: 2.5rem !important;
-    }
+  h2 {
+    font-size: 2.5rem !important;
+  }
 }
 
 /* Responsive design */
 @media (max-width: 900px) {
-    h2 {
-        font-size: 2rem;
-    }
+  h2 {
+    font-size: 2rem;
+  }
 
-    .fondo {
-        display: none;
-    }
+  .fondo {
+    display: none;
+  }
 
-    .bienvenida {
-        width: 100%;
-    }
+  .bienvenida {
+    width: 100%;
+  }
 
-    .efecto {
-        width: 100%;
-        height: 100%;
-    }
+  .efecto {
+    width: 100%;
+    height: 100%;
+  }
 
-    .carrucel {
-        height: 100%;
-        width: 100%;
-    }
+  .carrucel {
+    height: 100%;
+    width: 100%;
+  }
 
-    .carousel-caption h5 {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-    .carousel-caption p {
-        font-size: 1.2rem;
-    }
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
 
-    .carousel-item img {
-        height: 100%;
-        object-fit: cover;
-    }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
 
-    .carousel-caption {
-        width: 90%;
-    }
+  .carousel-caption {
+    width: 90%;
+  }
 
-    .servicios {
-        flex-direction: column;
-        padding: 2rem 1rem;
-        margin-top: 20rem;
-    }
+  .servicios {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin-top: 20rem;
+  }
 
-    .imgservicio, .infoServicios {
-        width: 100%;
-    }
+  .imgservicio,
+  .infoServicios {
+    width: 100%;
+  }
 
-    .imgservicio img {
-        box-shadow: none;
-    }
+  .imgservicio img {
+    box-shadow: none;
+  }
 
-    .tituloServicios h2 {
-        font-size: 3rem;
-    }
+  .tituloServicios h2 {
+    font-size: 3rem;
+  }
 
-    .descripcion {
-        height: auto;
-    }
+  .descripcion {
+    height: auto;
+  }
 
-    .descripcionContent {
-        flex-direction: column;
-    }
+  .descripcionContent {
+    flex-direction: column;
+  }
 
-    .imgDescripcion, .infoDescripcion {
-        width: 100%;
-    }
+  .imgDescripcion,
+  .infoDescripcion {
+    width: 100%;
+  }
 
-    .porqueElegirnos {
-        flex-direction: column;
-        padding: 2rem 1rem;
-        margin-top: 25rem;
-    }
+  .porqueElegirnos {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin-top: 25rem;
+  }
 
-    .imgPorqueElegirnos, .infoPorqueElegirnos {
-        width: 100%;
-    }
+  .imgPorqueElegirnos,
+  .infoPorqueElegirnos {
+    width: 100%;
+  }
 
-    .tituloPorqueElegirnos h2 {
-        font-size: 3rem;
-    }
+  .tituloPorqueElegirnos h2 {
+    font-size: 3rem;
+  }
 
-    .opiniones {
-        height: auto;
-        padding: 2rem 1rem;
-    }
+  .opiniones {
+    height: auto;
+    padding: 2rem 1rem;
+  }
 
-    .opninionesContainer {
-        flex-direction: column;
-        gap: 5rem;
-        height: auto;
-    }
+  .opninionesContainer {
+    flex-direction: column;
+    gap: 5rem;
+    height: auto;
+  }
 
-    .opinion {
-        width: 100%;
-        height: auto;
-    }
+  .opinion {
+    width: 100%;
+    height: auto;
+  }
 
-    .confian {
-        height: auto;
-        padding: 2rem 1rem;
-    }
+  .confian {
+    height: auto;
+    padding: 2rem 1rem;
+  }
 
-    .carrucelImg {
-        flex: 0 0 80%;
-        margin: 1rem 0;
-    }
+  .carrucelImg {
+    flex: 0 0 80%;
+    margin: 1rem 0;
+  }
 
-    .cedis {
-        height: auto;
-        padding: 2rem 0;
-    }
+  .cedis {
+    height: auto;
+    padding: 2rem 0;
+  }
 
-    .contenidoCedis {
-        flex-direction: column;
-        gap: 2rem;
-        padding: 0;
-    }
+  .contenidoCedis {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
 
-    .articulos {
-        height: auto;
-        padding: 2rem 0;
-        
-    }
+  .articulos {
+    height: auto;
+    padding: 2rem 0;
+  }
 
-    .articulo {
-        width: 100%;
-    }
+  .articulo {
+    width: 100%;
+  }
 
-    .contenidoArticulos {
-        flex-direction: column;
-        gap: 2rem;
-        padding: 0;
-    }
+  .contenidoArticulos {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
 
-    .contacto {
-        height: auto;
-        padding: 2rem 0;
-    }
+  .contacto {
+    height: auto;
+    padding: 2rem 0;
+  }
 
-    .contenidoContacto {
-        flex-direction: column;
-        gap: 2rem;
-        padding: 0;
-    }
+  .contenidoContacto {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
 
-    .infoContacto, .formularioContacto {
-        width: 100%;
-    }
+  .infoContacto,
+  .formularioContacto {
+    width: 100%;
+  }
+}
+
+.error {
+  color: rgba(71, 71, 71, 0.826);
+  font-weight: 700;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(225, 225, 225);
+  z-index: 100000;
+  text-align: center;
+}
+
+.error h1 {
+  font-size: 5rem;
 }
